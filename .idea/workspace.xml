@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6227d195-68c6-4a42-ab3a-568052c20b11" name="Default Changelist" comment="" />
+    <list default="true" id="6227d195-68c6-4a42-ab3a-568052c20b11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +20,10 @@
   </component>
   <component name="Git.Settings">
     <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1i2vztSVEiAFmIrKdUC3enEDocA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -80,11 +84,51 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="488" y="63" key="#com.intellij.ide.util.MemberChooser" timestamp="1601121080648">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="63" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1601121080648" />
+    <state x="249" y="0" key="CommitChangelistDialog2" timestamp="1601288952449">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="249" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601288952449" />
     <state x="463" y="128" key="FileChooserDialogImpl" timestamp="1601288447229">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -93,22 +137,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="521" y="287" width="347" height="163" key="Github.CreateGistDialog/0.0.1366.738@0.0.1366.738" timestamp="1601288516745" />
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1601288267029">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1601290034282">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1601288267029" />
-    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1601288267029">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1601290034282" />
+    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1601290034282">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1601288267029" />
-    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1601288267029">
+    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1601290034282" />
+    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1601290034282">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1601288267029" />
-    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1601288267029">
+    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1601290034282" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1601290034282">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601288267029" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601290034282" />
     <state x="186" y="15" key="SettingsEditor" timestamp="1601288479951">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

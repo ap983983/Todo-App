@@ -8,11 +8,8 @@
 </head>
 <body>
     <div class="container">
-            <div class="alert alert-danger alert-dismissible fade show mt-2" role="alert" th:if="${(param.err != null)}">
+            <div class="alert alert-danger mt-2" role="alert" th:if="${(param.err != null)}">
                 <strong th:text="${param.err}" />
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
             </div>
         <h1 class="text-center text-white mr-auto">Todo App</h1>
         <a th:href="@{showForm}" class="btn btn-primary">Add</a>
@@ -30,6 +27,5 @@
         </div>
     </div>
 
-    <script th:src="@{webjars/bootstrap/4.5.2/js/bootstrap.min.js}"/>
 </body>
 </html>
