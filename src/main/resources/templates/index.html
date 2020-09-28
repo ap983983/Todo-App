@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" th:href=@{webjars/bootstrap/4.5.2/css/bootstrap.min.css}>
+    <link rel="stylesheet" th:href="@{css/style.css}">
+</head>
+<body>
+    <div class="container">
+            <div class="alert alert-danger mt-2" role="alert" th:if="${(param.err != null)}">
+                <strong th:text="${param.err}" />
+            </div>
+        <h1 class="text-center text-white mr-auto">Todo App</h1>
+        <a th:href="@{showForm}" class="btn btn-primary">Add</a>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-3" th:each="item : ${todo_list}">
+                <div class="card bg-light">
+                    <div class="card-body">
+                        <h5 class="card-title" th:text="${item.listSub}" />
+                        <p th:text="${item.listMsg}"/>
+                        <a th:href="@{/showForm(list_id = ${item.listId})}" class="btn btn-warning btn-sm">Update</a>
+                        <a th:href="@{/deleteTodo(list_id = ${item.listId})}" class="btn btn-danger btn-sm">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
